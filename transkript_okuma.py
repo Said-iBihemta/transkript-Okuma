@@ -24,7 +24,7 @@ class TranscriptApp(QWidget):
         layout = QVBoxLayout()
 
         # PDF Yükleme Butonu
-        self.upload_button = QPushButton('PDF Yükle', self)
+        self.upload_button = QPushButton('Transkript Yükle', self)
         self.upload_button.clicked.connect(self.load_pdf)
         layout.addWidget(self.upload_button)
 
